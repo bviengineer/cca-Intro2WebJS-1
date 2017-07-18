@@ -1,5 +1,7 @@
 var greetUser = "Emmanuel";
-
-for (var i = 1; i <= 10; i++) {
-    console.log(i + ". " + "Hello, "+ greetUser);
+var print = 10;
+for (var i = 0; i < print; i++) {
+        if (i % 2 != 0) {
+            console.log(i + ". " + "Hello, "+ greetUser);
+        }
 }

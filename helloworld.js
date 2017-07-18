@@ -1,2 +1,2 @@
-var greetUser = "Leela"
+var greetUser = "Emmanuel"
 console.log("Hello, "+ greetUser);
